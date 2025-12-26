@@ -1,0 +1,47 @@
+name: ev_charging_locator
+description: A modern Flutter app to locate EV charging stations with map, filters, and routing.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Location & Maps
+  google_maps_flutter: ^2.6.1
+  geolocator: ^10.1.0
+  flutter_polyline_points: ^2.0.0
+
+  # Networking
+  http: ^1.2.2
+
+  # UI Enhancements
+  sliding_up_panel: ^2.0.0+1
+  url_launcher: ^6.3.0
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.9.1
+
+  # Additional dependencies for backend integration
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_native_splash: ^2.3.10
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/logo.png
+  android: true
+  ios: true
+  web: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/payments/
+    - assets/data/mock_stations.json
