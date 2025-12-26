@@ -1,0 +1,57 @@
+[
+  {
+    "id": "stn_001",
+    "name": "VoltFast Park Street",
+    "lat": 22.5536,
+    "lng": 88.3503,
+    "address": "Park Street, Kolkata",
+    "connectorType": "CCS2",
+    "speed": "Fast",
+    "availability": "Available",
+    "rating": 4.4
+  },
+  {
+    "id": "stn_002",
+    "name": "ChargeGo Salt Lake",
+    "lat": 22.5867,
+    "lng": 88.4173,
+    "address": "Sector V, Salt Lake, Kolkata",
+    "connectorType": "Type2",
+    "speed": "Slow",
+    "availability": "Occupied",
+    "rating": 4.0
+  },
+  {
+    "id": "stn_003",
+    "name": "GreenPlug Howrah",
+    "lat": 22.5958,
+    "lng": 88.2636,
+    "address": "Howrah Maidan",
+    "connectorType": "CHAdeMO",
+    "speed": "Ultra-Fast",
+    "availability": "Available",
+    "rating": 4.6
+  },
+  {
+    "id": "stn_004",
+    "name": "SparkHub New Town",
+    "lat": 22.5754,
+    "lng": 88.479,
+    "address": "New Town, Action Area I",
+    "connectorType": "CCS2",
+    "speed": "Ultra-Fast",
+    "availability": "Available",
+    "rating": 4.7
+  },
+  {
+    "id": "stn_005",
+    "name": "EcoCharge Garia",
+    "lat": 22.4629,
+    "lng": 88.3953,
+    "address": "Garia Station Road",
+    "connectorType": "GB/T",
+    "speed": "Fast",
+    "availability": "Occupied",
+    "rating": 3.9
+  }
+]
